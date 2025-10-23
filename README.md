@@ -15,13 +15,13 @@
 3. 3D 정보의 유효성 실증: SVM 모델에서 3D 정보만 사용했을 때보다 2D와 3D 정보를 함께 사용했을 때 AUC 성능이 0.57에서 0.629로 향상되었고, RF 모델에서도 정밀도(Precision)가 크게 향상(0.8643 → 0.9273)되는 등, 3D 구조 정보가 간독성 예측 모델의 성능을 실질적으로 개선할 수 있음을 실험적으로 증명했습니다.
 
 ## 사용한 데이터 출처
-1. NCBI PubChem - DILIrank Dataset
+1. NCBI PubChem - DILIrank Dataset:
 https://www.ncbi.nlm.nih.gov/pcsubstance?term=%22Drug%20Induced%20Liver%20Injury%20Rank%20%28DILIrank%29%20Dataset%22%5BSourceName%5D%20AND%20hasnohold%5Bfilt%5D 
-미국 국립생물공학정보센터 (NCBI) 의 PubChem에 등록된 초기 DILIrank 데이터셋입니다
+- 미국 국립생물공학정보센터 (NCBI) 의 PubChem에 등록된 초기 DILIrank 데이터셋입니다
 
-2. FDA - DILIrank 2.0 Dataset
+3. FDA - DILIrank 2.0 Dataset:
 https://www.fda.gov/science-research/liver-toxicity-knowledge-base-ltkb/drug-induced-liver-injury-rank-dilirank-20-dataset 
-미국 식품의약국 (FDA) 에서 공개한 업데이트된 DILIrank 2.0 데이터셋입니다.
+- 미국 식품의약국 (FDA) 에서 공개한 업데이트된 DILIrank 2.0 데이터셋입니다.
 
 
 
